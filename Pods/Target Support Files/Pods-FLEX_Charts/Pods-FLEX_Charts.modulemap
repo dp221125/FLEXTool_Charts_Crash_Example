@@ -1,0 +1,6 @@
+framework module Pods_FLEX_Charts {
+  umbrella header "Pods-FLEX_Charts-umbrella.h"
+
+  export *
+  module * { export * }
+}

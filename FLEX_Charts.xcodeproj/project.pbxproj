@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31FEC86A0F9CAC682A277036 /* Pods_FLEX_Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C87DDAA282434331E971EAA /* Pods_FLEX_Charts.framework */; };
+		C386B7BC2997C13D00FC0A76 /* FLEX_ChartsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386B7BB2997C13D00FC0A76 /* FLEX_ChartsApp.swift */; };
+		C386B7BE2997C13D00FC0A76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C386B7BD2997C13D00FC0A76 /* ContentView.swift */; };
+		C386B7C02997C13F00FC0A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C386B7BF2997C13F00FC0A76 /* Assets.xcassets */; };
+		C386B7C32997C13F00FC0A76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C386B7C22997C13F00FC0A76 /* Preview Assets.xcassets */; };
+		C386B7CB2997C2A600FC0A76 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C386B7CA2997C2A600FC0A76 /* Charts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C87DDAA282434331E971EAA /* Pods_FLEX_Charts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FLEX_Charts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C6C650776EE10AACB9489E1 /* Pods-FLEX_Charts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEX_Charts.release.xcconfig"; path = "Target Support Files/Pods-FLEX_Charts/Pods-FLEX_Charts.release.xcconfig"; sourceTree = "<group>"; };
+		C386B7B82997C13D00FC0A76 /* FLEX_Charts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLEX_Charts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C386B7BB2997C13D00FC0A76 /* FLEX_ChartsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLEX_ChartsApp.swift; sourceTree = "<group>"; };
+		C386B7BD2997C13D00FC0A76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C386B7BF2997C13F00FC0A76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C386B7C22997C13F00FC0A76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C386B7CA2997C2A600FC0A76 /* Charts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Charts.framework; path = System/Library/Frameworks/Charts.framework; sourceTree = SDKROOT; };
+		E2A3A21A50496B2125FFF472 /* Pods-FLEX_Charts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLEX_Charts.debug.xcconfig"; path = "Target Support Files/Pods-FLEX_Charts/Pods-FLEX_Charts.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C386B7B52997C13D00FC0A76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C386B7CB2997C2A600FC0A76 /* Charts.framework in Frameworks */,
+				31FEC86A0F9CAC682A277036 /* Pods_FLEX_Charts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31DF6D5247E84DAD110910CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2A3A21A50496B2125FFF472 /* Pods-FLEX_Charts.debug.xcconfig */,
+				6C6C650776EE10AACB9489E1 /* Pods-FLEX_Charts.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C386B7AF2997C13D00FC0A76 = {
+			isa = PBXGroup;
+			children = (
+				C386B7BA2997C13D00FC0A76 /* FLEX_Charts */,
+				C386B7B92997C13D00FC0A76 /* Products */,
+				C386B7C92997C2A600FC0A76 /* Frameworks */,
+				31DF6D5247E84DAD110910CC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		C386B7B92997C13D00FC0A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C386B7B82997C13D00FC0A76 /* FLEX_Charts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C386B7BA2997C13D00FC0A76 /* FLEX_Charts */ = {
+			isa = PBXGroup;
+			children = (
+				C386B7BB2997C13D00FC0A76 /* FLEX_ChartsApp.swift */,
+				C386B7BD2997C13D00FC0A76 /* ContentView.swift */,
+				C386B7BF2997C13F00FC0A76 /* Assets.xcassets */,
+				C386B7C12997C13F00FC0A76 /* Preview Content */,
+			);
+			path = FLEX_Charts;
+			sourceTree = "<group>";
+		};
+		C386B7C12997C13F00FC0A76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C386B7C22997C13F00FC0A76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C386B7C92997C2A600FC0A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C386B7CA2997C2A600FC0A76 /* Charts.framework */,
+				3C87DDAA282434331E971EAA /* Pods_FLEX_Charts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C386B7B72997C13D00FC0A76 /* FLEX_Charts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C386B7C62997C13F00FC0A76 /* Build configuration list for PBXNativeTarget "FLEX_Charts" */;
+			buildPhases = (
+				FA47F88B270803E4F568C8C2 /* [CP] Check Pods Manifest.lock */,
+				C386B7B42997C13D00FC0A76 /* Sources */,
+				C386B7B52997C13D00FC0A76 /* Frameworks */,
+				C386B7B62997C13D00FC0A76 /* Resources */,
+				85FA18757E70881DF1B4342E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FLEX_Charts;
+			productName = FLEX_Charts;
+			productReference = C386B7B82997C13D00FC0A76 /* FLEX_Charts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C386B7B02997C13D00FC0A76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C386B7B72997C13D00FC0A76 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C386B7B32997C13D00FC0A76 /* Build configuration list for PBXProject "FLEX_Charts" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C386B7AF2997C13D00FC0A76;
+			productRefGroup = C386B7B92997C13D00FC0A76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C386B7B72997C13D00FC0A76 /* FLEX_Charts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C386B7B62997C13D00FC0A76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C386B7C32997C13F00FC0A76 /* Preview Assets.xcassets in Resources */,
+				C386B7C02997C13F00FC0A76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		85FA18757E70881DF1B4342E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FLEX_Charts/Pods-FLEX_Charts-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FLEX_Charts/Pods-FLEX_Charts-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FLEX_Charts/Pods-FLEX_Charts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA47F88B270803E4F568C8C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLEX_Charts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C386B7B42997C13D00FC0A76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C386B7BE2997C13D00FC0A76 /* ContentView.swift in Sources */,
+				C386B7BC2997C13D00FC0A76 /* FLEX_ChartsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C386B7C42997C13F00FC0A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C386B7C52997C13F00FC0A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C386B7C72997C13F00FC0A76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2A3A21A50496B2125FFF472 /* Pods-FLEX_Charts.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FLEX_Charts/Preview Content\"";
+				DEVELOPMENT_TEAM = QA48J52DFY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seokho.FLEX-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C386B7C82997C13F00FC0A76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C6C650776EE10AACB9489E1 /* Pods-FLEX_Charts.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FLEX_Charts/Preview Content\"";
+				DEVELOPMENT_TEAM = QA48J52DFY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seokho.FLEX-Charts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C386B7B32997C13D00FC0A76 /* Build configuration list for PBXProject "FLEX_Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C386B7C42997C13F00FC0A76 /* Debug */,
+				C386B7C52997C13F00FC0A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C386B7C62997C13F00FC0A76 /* Build configuration list for PBXNativeTarget "FLEX_Charts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C386B7C72997C13F00FC0A76 /* Debug */,
+				C386B7C82997C13F00FC0A76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C386B7B02997C13D00FC0A76 /* Project object */;
+}
